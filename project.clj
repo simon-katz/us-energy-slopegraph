@@ -6,9 +6,15 @@
 
   :min-lein-version "2.9.1"
 
-  :dependencies [[org.clojure/clojure "1.10.0"]
-                 [org.clojure/clojurescript "1.10.773"]
-                 [org.clojure/core.async  "0.4.500"]]
+  :dependencies [;; Originally:
+                 ;; [org.clojure/clojure "1.10.0"]
+                 ;; [org.clojure/clojurescript "1.10.773"]
+                 ;; [org.clojure/core.async  "0.4.500"]
+                 ;; Now
+                 [org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.9.946"]
+                 [org.clojure/core.async  "0.3.443"]
+                 [cljsjs/d3 "4.12.0-0"]]
 
   :plugins [[lein-figwheel "0.5.20"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
